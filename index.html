@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speed Typing Test</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 class="heading">Speed Typing Test</h1>
+  <div class="container">
+    <p class="para">On your fingers let's set go!</p>
+    <div id="speedTypingTest">
+      <div class="img">
+        <img src="https://assets.ccbp.in/frontend/dynamic-webapps/clock-img.png" alt="">
+        <p id="timer">Time: 0s</p>
+      </div>
+      <p id="quoteDisplay">Fetching quote...</p>
+      <textarea id="quoteInput" class="form-control" placeholder="Type the quote here..."></textarea>
+      <button id="submitBtn" class="btn btn-primary">Submit</button>
+      <button id="resetBtn" class="btn btn-secondary">Reset</button>
+      <p id="result"></p>
+      <p id="accuracy"></p>
+      <p id="errors"></p>
+    </div>
+  </div>
+  <script src="game.js"></script>
+</body>
+
+</html>
